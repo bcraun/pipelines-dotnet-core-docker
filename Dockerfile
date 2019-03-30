@@ -1,5 +1,3 @@
-
-
 # First stage of multi-stage build
 FROM microsoft/aspnetcore-build AS build-env
 WORKDIR /app
