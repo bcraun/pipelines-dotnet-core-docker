@@ -1,4 +1,7 @@
 # First stage of multi-stage build
+FROM redis
+WORKDIR /app
+
 FROM microsoft/aspnetcore-build AS build-env
 WORKDIR /app
 
