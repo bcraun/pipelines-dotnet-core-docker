@@ -1,5 +1,5 @@
 # First stage of multi-stage build
-FROM redis
+FROM rabbitmq
 WORKDIR /app
 
 FROM microsoft/aspnetcore-build AS build-env
